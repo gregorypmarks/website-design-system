@@ -1,0 +1,68 @@
+h1, h2 {
+    text-align: center;
+    color: rgb(82, 50, 50);
+}
+
+p {
+    color: rgb(46, 46, 46);
+}
+
+hr {
+    width: 33%;
+    border: 2px solid gray;
+    margin: 16px auto;
+}
+
+.color {
+    width: 18%;
+    height: 10%;
+    padding: 8px 16px;
+    margin: 8px 16px;
+    border-radius: 8px;
+}
+
+/* Centers the content box text */
+.description {
+    text-align: center;
+}
+
+/* Styles the sections */
+section {
+    border: 2px solid gray;
+    width: 90%;
+    padding: 16px 32px;
+    margin: 32px auto;
+    border-radius: 8px;
+}
+
+/* Spreads equally the content boxes */
+div.selection-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Colors the color palette */
+div.yellow {
+    background-color: rgb(255, 255, 195);
+}
+
+div.brown {
+    background-color: rgb(82, 50, 50);
+}
+
+div.dark {
+    background-color: rgb(46, 46, 46);
+}
+
+div.purple {
+    background-color: rgb(133, 10, 133);
+}
+
+/* Colors the color palette text */
+div.yellow p {
+    color: rgb(82, 50, 50);
+}
+
+div.brown p, div.dark p, div.purple p {
+    color: rgb(255, 255, 195);
+}
