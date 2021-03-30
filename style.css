@@ -64,11 +64,24 @@ div.brown p, div.dark p, div.purple p {
 }
 
 /* Font styles */
+h1, h2, h3, h4, h5, h6, .heading-txt {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
 
-h1, h2, h3, h4, h5, h6 {
+p, li, .paragraph-txt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+/* Font box styling */
+.content-box p.heading {
     font-family: 'Cormorant Garamond', serif;
 }
 
-p {
+.content-box p.normal-text {
     font-family: 'Roboto', sans-serif;
 }
